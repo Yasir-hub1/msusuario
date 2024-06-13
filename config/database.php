@@ -90,15 +90,7 @@ return [
             'prefix' => '',
             'prefix_indexes' => true,
         ],
-        'mongodb' => [
-            'driver' => 'mongodb',
-            'dsn' => env('DB_URI', 'mongodb+srv://yasirarce70:v2LXuF8pJVRMZnx9@clusterv2.jlst9ux.mongodb.net/?retryWrites=true&w=majority&appName=Clusterv2'),
-            'database' => 'msusuariov2',
-            'options'  => [
-                'database' => 'admin',
-                'connectTimeoutMS' => 30000,
-            ]
-        ],
+
 
     ],
 
